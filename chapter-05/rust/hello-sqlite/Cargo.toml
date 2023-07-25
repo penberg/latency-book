@@ -1,0 +1,12 @@
+[package]
+name = "latency-book-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-rt = "2.8.0"
+actix-web = "4.3.1"
+anyhow = "1.0.69"
+clap = { version = "4.3.19", features = ["derive"] }
+rusqlite = "0.28.0"
+tokio = { version = "1", features = ["full"] }
