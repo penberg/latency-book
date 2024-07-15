@@ -1,0 +1,12 @@
+[package]
+name = "locking-bench"
+version = "0.0.0"
+edition = "2021"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports", "async", "async_futures"] }
+pprof = { version = "0.12.1", features = ["criterion", "flamegraph"] }
+
+[[bench]]
+name = "benchmark"
+harness = false
