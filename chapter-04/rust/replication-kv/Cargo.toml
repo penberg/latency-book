@@ -1,0 +1,7 @@
+[package]
+name = "replication-kv"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rustyline = "14.0"
